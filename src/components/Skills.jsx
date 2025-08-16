@@ -7,7 +7,7 @@ import reactPic from '../assets/react.svg'
 const Skills = () => {
     return (
         <div>
-            <section id='skills' className='py-12 px-3 md:px-[10%]'>
+            <section id='Skills' className='py-12 px-3 md:px-[10%]'>
                 <h2 className="text-[27px] md:text-3xl pl-0 md:pl-4 relative font-medium text-blue-800 mb-6 pb-2.5 text-center w-fit mx-auto after:content-[''] after:absolute after:bottom-[-5px] after:left-1/2 after:-translate-1/2 after:h-1 after:w-10 after:border-[rgba(0_0_0_/_0.2)] after:bg-orange-500 after:rounded-full">Soft skills</h2>
                 <p className='text-[15px] px-2 md:px-0 text-center mt-7 font-medium text-[#333] max-w-[300px] md:max-w-[325px] mx-auto'>Human skills that strengthen my technical capacities</p>
 
@@ -19,7 +19,7 @@ const Skills = () => {
                         </div>
                         <div>
                             <h3 className='text-center font-bold text-xl mb-2 text-black font-[cursive]'>HTML</h3>
-                            <p className='text-left'>Je structure le contenu web avec précision, garantissant une base claire.</p>
+                            <p className='text-left'>I structure the web content with precision, guaranteeing a clear base.</p>
                         </div>
                     </div>
 
@@ -29,7 +29,7 @@ const Skills = () => {
                         </div>
                         <div>
                             <h3 className='text-center font-bold text-xl mb-2 text-yellow-600 font-[cursive]'>CSS</h3>
-                            <p className='text-left'>J’habille les sites avec des styles élégants.</p>
+                            <p className='text-left'>I dress the sites with elegant styles.</p>
                         </div>
                     </div>
 
@@ -39,7 +39,7 @@ const Skills = () => {
                         </div>
                         <div>
                             <h3 className='text-center font-bold text-xl mb-2 text-cyan-700 font-[cursive]'>JAVASCRIPT</h3>
-                            <p className='text-left'>J’anime mes projets avec des interactions dynamiques et modernes.</p>
+                            <p className='text-left'>I lead my projects with dynamic and modern interactions.</p>
                         </div>
                     </div>
 
@@ -49,7 +49,7 @@ const Skills = () => {
                         </div>
                         <div>
                             <h3 className='text-center font-bold text-xl mb-2 text-cyan-400 font-[cursive]'>REACT</h3>
-                            <p className='text-left'>Je développe des interfaces réactives et modulaires.</p>
+                            <p className='text-left'>I develop reactive and modular interfaces.</p>
                         </div>
                     </div>
                 </div>

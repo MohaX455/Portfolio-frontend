@@ -4,7 +4,7 @@ import assets from '../assets/user.png'
 const About = () => {
     return (
         <div>
-            <section id='about' className="bg-[#f4f4f4] flex flex-col md:flex-row gap-12 md:gap-20 justify-center items-center h-auto py-12 md:pb-16 md:my-0 md:h-[23vh] px-[8%] md:pl-[7%] w-full border-b-[1.5px] border-[rgba(0_0_0_/_0.1)]">
+            <section id='About' className="bg-[#f4f4f4] flex flex-col md:flex-row gap-12 md:gap-20 justify-center items-center h-auto py-12 md:pb-16 md:my-0 md:h-[23vh] px-[8%] md:pl-[7%] w-full border-b-[1.5px] border-[rgba(0_0_0_/_0.1)]">
                 <div className='size-35 rounded-full border border-[rgba(0_0_0_/_0.2)] bg-blue-500'>
                     <img src={assets} alt='user' className='size-full z-50' />
                 </div>
