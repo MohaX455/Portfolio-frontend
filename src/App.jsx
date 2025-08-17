@@ -19,7 +19,7 @@ const App = () => {
   }, [success])
 
   return (
-    <div className="font-[Quicksand] text-gray-700 relative tracking-wide transition duration-300 scroll-smooth">
+    <div className="font-[poppins] text-gray-700 relative tracking-wide transition duration-300 scroll-smooth">
 
       {/* ✅ Popup avec animation descendante */}
       <div className={`
