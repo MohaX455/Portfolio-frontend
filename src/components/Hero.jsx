@@ -20,7 +20,7 @@ const Hero = () => {
                         </div>
 
                         <div className="flex gap-5 items-center">
-                            <a href='#contact'
+                            <a href='#Contact'
                                 className="flex justify-center items-center gap-1 px-4 py-2.5 bg-orange-600 text-[15px] hover:bg-orange-700 transition duration-300 font-medium cursor-pointer rounded-sm">Get
                                 started
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -30,7 +30,7 @@ const Hero = () => {
                                     <path d="M7 17 17 7" />
                                 </svg>
                             </a>
-                            <a href='#projects' className="flex gap-1 px-4 py-2.5 bg-red-600 text-[15px] hover:bg-red-700 transition duration-300 font-medium cursor-pointer rounded-sm">
+                            <a href='#Projects' className="flex gap-1 px-4 py-2.5 bg-red-600 text-[15px] hover:bg-red-700 transition duration-300 font-medium cursor-pointer rounded-sm">
                                 My projects
                             </a>
                         </div>
