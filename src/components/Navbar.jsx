@@ -86,7 +86,7 @@ const Navbar = () => {
                     </div>
                     <div className="h-[1px] w-[70%] m-auto my-8 bg-[rgba(0_0_0_/_0.3)]"></div>
                     <div className='mx-auto'>
-                        <a href="#contact"
+                        <a href="#Contact"
                             className="px-14 py-3.5 bg-white transition duration-300 text-orange-500 text-[18px] font-medium rounded-full border border-orange-500 cursor-pointer" onClick={handleCloseMobileMenu}>Contact me</a>
                     </div>
 
