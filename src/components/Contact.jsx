@@ -24,7 +24,8 @@ const Contact = ({ setSuccess }) => {
         console.log(formData)
 
         try {
-            const res = await fetch("http://localhost:3000/mail", {
+            const API_RUL = "https://portfolio-backend-snx4.onrender.com"
+            const res = await fetch(`${API_RUL}/mail`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
