@@ -24,7 +24,7 @@ const Contact = ({ setSuccess }) => {
         console.log(formData)
 
         try {
-            const API_RUL = "https://portfolio-backend-roir.onrender.com/"
+            const API_RUL = "https://portfolio-backend-roir.onrender.com"
             const res = await fetch(`${API_RUL}/mail`, {
                 method: "POST",
                 headers: {
