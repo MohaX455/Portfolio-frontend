@@ -54,7 +54,7 @@ const Contact = ({ setSuccess }) => {
                     <div className="flex flex-col gap-6 md:gap-7 w-[300px] md:w-[350px]">
                         <div className="h-11 w-full border border-[rgba(0_0_0_/_0.3)] flex gap-2 rounded-[1px]">
                             <div
-                                className="h-full w-[40px] flex justify-center items-center border-r-[1px] border-[rgba(0_0_0_/_0.3)]">
+                                className="h-full w-[45px] flex justify-center items-center border-r-[1px] border-[rgba(0_0_0_/_0.3)]">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round"
@@ -63,12 +63,14 @@ const Contact = ({ setSuccess }) => {
                                     <circle cx="12" cy="7" r="4" />
                                 </svg>
                             </div>
-                            <input type="text" name='name' placeholder='Your name' onChange={handleChange} value={formData.name}
-                                className="h-full outline-none pr-2.5" required />
+                            <div className="h-full w-[305px] flex items-center">
+                                <input type="text" name='name' placeholder='Your name' onChange={handleChange} value={formData.name}
+                                    className="h-full w-full outline-none pr-2.5" required />
+                            </div>
                         </div>
                         <div className="h-11 w-full border border-[rgba(0_0_0_/_0.3)] flex gap-2 rounded-[1px]">
                             <div
-                                className="h-full w-[40px] flex justify-center items-center border-r-[1px] border-[rgba(0_0_0_/_0.3)]">
+                                className="h-full w-[45px] flex justify-center items-center border-r-[1px] border-[rgba(0_0_0_/_0.3)]">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round"
@@ -77,12 +79,14 @@ const Contact = ({ setSuccess }) => {
                                     <rect x="2" y="4" width="20" height="16" rx="2" />
                                 </svg>
                             </div>
-                            <input type="email" name='email' placeholder='Your email' onChange={handleChange} value={formData.email}
-                                className="h-full outline-none pr-2.5" required />
+                            <div className="h-full w-[305px] flex items-center">
+                                <input type="email" name='email' placeholder='Your email' onChange={handleChange} value={formData.email}
+                                    className="h-full w-full outline-none pr-2.5" required />
+                            </div>
                         </div>
                         <div className="h-11 w-full border border-[rgba(0_0_0_/_0.3)] flex gap-2 rounded-[1px]">
                             <div
-                                className="h-full w-[40px] flex justify-center items-center border-r-[1px] border-[rgba(0_0_0_/_0.3)]">
+                                className="h-full w-[45px] flex justify-center items-center border-r-[1px] border-[rgba(0_0_0_/_0.3)]">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round"
@@ -91,8 +95,10 @@ const Contact = ({ setSuccess }) => {
                                         d="m16 6-8.414 8.586a2 2 0 0 0 2.829 2.829l8.414-8.586a4 4 0 1 0-5.657-5.657l-8.379 8.551a6 6 0 1 0 8.485 8.485l8.379-8.551" />
                                 </svg>
                             </div>
-                            <input type="text" name='subject' placeholder='Subject' onChange={handleChange} value={formData.subject}
-                                className="h-full outline-none pr-2.5" required />
+                            <div className="h-full w-[305px] flex items-center">
+                                <input type="text" name='subject' placeholder='Subject' onChange={handleChange} value={formData.subject}
+                                    className="h-full w-full outline-none pr-2.5" required />
+                            </div>
                         </div>
                     </div>
                     <div className="w-[300px] md:w-[350px] flex flex-col gap-6 md:gap-7">
